@@ -1,0 +1,18 @@
+Env: "local"
+Port: "6080"
+AppName: "food-roulette"
+ClientConfig:
+  Timeout: 15
+  IdleConnTimeout: 30
+  MaxIdleConsPerHost: 1
+  MaxConsPerHost: 1
+DatabaseConfigs:
+  - Name: "MONGO"
+    Database: "cuisine-database"
+    Server: "localhost"
+    Port: "27017"
+    Username: "rootuser"
+    Password: "rootpass"
+    Scheme: "mongo"
+
+
